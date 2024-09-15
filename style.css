@@ -1,0 +1,144 @@
+ body {
+     font-family: Helvetica, Arial, sans-serif;
+     margin: 0px;
+     font-size: 1.5vw; /* this is 1% of the screen */
+}
+
+/*  hash key (#) is for id */ 
+#logo {
+    margin: 0px;
+    padding: 8px;
+    font-family: "Fredoka One", sans-serif;
+ /* box-shadow: 8px 8px 10px 3px darkorange; -> box shadow around title*/
+    width: 16%;
+    text-shadow:
+    1px 1px 0px black,   /* Bottom-right shadow */
+    -1px 1px 0px black,  /* Bottom-left shadow */
+    1px -1px 0px black,  /* Top-right shadow */
+    -1px -1px 0px black; /* Top-left shadow */
+}
+
+ul {
+    margin: 0px;
+}
+
+body > header {
+    background-color: #D499B9 ;
+    display: flex;
+    height: 18vh;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(255, 255, 255); 
+ /* color: #fff -> another way for white */
+}
+
+/* #main-header {} -> the same like body > header */
+
+body > header > nav > ul {
+    list-style: none;
+    text-decoration: none;
+}
+
+#nav-ul {
+    display: flex;
+}
+
+#nav-ul > li {
+    padding: 8px;
+    margin: 16px;
+}
+
+
+/* dot (.) is for classes */ 
+.navbutton {
+    color: white;
+    text-decoration: none;
+    padding: 5px;
+    border: 2px solid white; /* Make the border thicker */
+    border-radius: 10%;
+    box-shadow: 0 4px 8px white; /* Add shadow */
+}
+
+
+body > main article {
+    width: 80%;
+    margin: auto;
+}
+
+#main-content {
+    display: flex;
+    justify-content: space-around;
+    text-align: justify;
+}
+
+#main-content > div {
+    width: 80%;
+}
+
+form {
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+}
+
+body > footer { 
+    background-color: #D499B9 ;  
+    display: flex;
+}
+
+img {
+    border-radius: 50%;
+}
+
+
+.image-container {
+    display: flex;
+    gap: 20px; /* Add space between images */
+}
+
+.image-container img {
+    width: 220px; 
+    height: 200px;
+}
+
+figure {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center the image and caption */
+}
+
+figcaption {
+    margin-top: 8px; /* Space between the image and caption */
+    font-size: 14px; /* Adjust font size as needed */
+    color: #555; /* Change text color if desired */
+    text-align: center; /* Center align the caption text */
+}
+
+
+img {
+    max-width: 100%; /* Ensure the image is responsive */
+    height: auto; /* Maintain aspect ratio */
+}
+
+
+
+.image.classification {
+    display: flex;
+}
+
+#footer-ul {
+    display: flex;
+    list-style: none;
+}
+
+#footer-ul > div > li {
+    margin-left: 12px;
+}
+    
+#footer-ul > div > li > a {
+    color: white;
+    text-decoration: none;
+}
